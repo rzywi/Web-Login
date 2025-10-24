@@ -5,7 +5,6 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body {
-    position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,3 +99,4 @@ input::placeholder {
     margin-top: 35px;
 
 }
+
