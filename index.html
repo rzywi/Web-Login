@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css"> <!-- Gọi file CSS -->
+  <!-- Link icon -->
+  <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <!-- Bao quát toàn bộ trang -->
+  <div class="container">
+
+    <!-- Lớp phủ mờ -->
+    <div class="overlay"></div>
+
+    <!-- Phần Login -->
+    <div class="Login">
+
+      <h2>Login</h2>
+      <form action="#">
+      <!-- Tên tài khoản -->
+      <div class="accountinput">
+        <!-- <label for="username">User name</label> -->
+        <input type="text" id="username" placeholder="User name" required>
+        <i class='bxr  bxs-user'  ></i> 
+      </div>
+
+      <!-- Mật khẩu -->
+      <div class="accountinput">
+        <!-- <label for="password">Password</label> -->
+        <input type="password" id="password" placeholder="Password" required>
+        <i class='bxr  bxs-lock'  ></i> 
+      </div>
+
+      <!-- Quên mật khẩu -->
+      <div class="remember-forgot">
+        <label><input type="checkbox" id="remember">Remember me</label>
+        <a href="#">Forgot password?</a>
+
+      </div>
+
+      <!-- Nút login  -->
+      <button type="submit" class="btn">Login</button>
+
+      <div class="signup-link"></div>
+      
+
+    </div>
+  </div>
+  
+</body>
+</html>
